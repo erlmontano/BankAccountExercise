@@ -9,7 +9,6 @@ public class InvalidAmountException extends Exception {
      * create InvalidAmountException.
      */
     public InvalidAmountException(String message) {
-        super(message);
         this.message = message;
     }
 

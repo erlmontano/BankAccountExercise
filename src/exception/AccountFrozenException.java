@@ -10,7 +10,6 @@ public class AccountFrozenException extends Exception {
      * create AccountFrozenException.
      */
     public AccountFrozenException(String message) {
-        super(message);
         this.message = message;
     }
 

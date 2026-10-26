@@ -10,7 +10,6 @@ public class InsufficientFundsException extends Exception {
      * create InsufficientFundsException.
      */
     public InsufficientFundsException(String message) {
-        super(message);
         this.message = message;
     }
 
